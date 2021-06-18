@@ -1,22 +1,28 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
  * main - Entry point
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int d;
-for (d = 0; d < 90; d++)
+int digit_1;
+int digit_2;
+for (digit_1 = 48 ; digit_1 <= 56 ; digit_1++)
 {
-
-putchar((d / 10) + '0');
-putchar((d % 10) + '0');
-if (d != 89)
+for (digit_2 = digit_1 + 1 ; digit_2 <= 57 ; digit_2++)
 {
-putchar(',');
-putchar(' ');
+putchar(digit_1);
+putchar(digit_2);
+if ((digit_1 == 56) && (digit_2 == 57))
+{
+continue;
+}
+else
+{
+putchar(44);
+putchar(32);
+}
 }
 }
 putchar('\n');
