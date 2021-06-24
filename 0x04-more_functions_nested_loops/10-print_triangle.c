@@ -1,8 +1,11 @@
 #include "holberton.h"
-
+#include <stdlib.h>
+#include<stdio.h>
 /**
- * print_triangle - Entry point
+ * main - Entry point
+ *
  * @size: size of triangle
+ *
  * Return: no return
  */
 void print_triangle(int size)
