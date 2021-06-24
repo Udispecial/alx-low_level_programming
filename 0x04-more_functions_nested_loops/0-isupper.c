@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include<stdio.h>
 /**
- * _isupper - a function that check for uppercase character
+ * _isupper - Entry point
  *
  * @c: int type number
  *
